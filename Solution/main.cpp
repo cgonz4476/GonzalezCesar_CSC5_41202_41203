@@ -1,8 +1,8 @@
 /* 
-    File:   main.cpp
-    Author: Cesar Gonzalez
-    Created on January 4, 2016, 10:18 AM
-    Purpose: check ot IDE
+ * File:   main.cpp
+ * Author: rcc
+ *
+ * Created on January 11, 2016, 11:18 AM
  */
 
 //System libraries
@@ -18,11 +18,11 @@ using namespace std;
 //Execution begins here
 int main(int argc, char** argv) {
     //Declare and initialize variables
-    bool x=true;
-    bool y=true;
+    bool score1=80
+    bool score2=60
     
     //create heading 
-    cout<<"X Y !X !Y &X &Y |X |Y ^X ^Y  X Y "<<endl;
+    cout<<pass<<endl;
     
     //first row
     cout<<(x?'T':'F')<<"";
@@ -61,4 +61,3 @@ int main(int argc, char** argv) {
 
     return 0;
 }
-

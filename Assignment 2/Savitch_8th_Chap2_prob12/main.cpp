@@ -5,7 +5,7 @@
  * Purpose: Calculate the square root by the Babylonian/newtowns
  */
 
-#include <cstdlib>
+#include <iostream>
 #include <iomanip>
 #include <cmath>
 using namespace std;
@@ -22,9 +22,9 @@ int main(int argc, char** argv) {
     guess=(guess+r)/2;
     
     cout<<"the input value + "<<endl;
-    cout<<"sqrt=("<<n<<")="<<sqrt(n)<<endl
+    cout<<"sqrt=("<<n<<")="<<sqrt(n)<<endl;
     cout<<"The first pass r ="<<r<<endl;
-    cout<<"the first pass guess ="<<guess<<endl;
+    cout<<"The first pass guess ="<<guess<<endl;
     
     
     //Approximate the square root sixth pass     

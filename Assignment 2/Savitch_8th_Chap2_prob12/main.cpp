@@ -10,9 +10,9 @@
 #include <cmath>
 using namespace std;
 int main(int argc, char** argv) {
-//Declare and iniialize variables
+//Declare and initialize variables
     float n;//
-    float r,guess;//intermediate values which asympoically approach sqrt:(n)
+    float r,guess;//intermediate values which asymptomatically approach sqrt:(n)
     
     cout<<"Input the value to computer the sqrt of?"<<endl;
     cin>>n;
@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
     guess=n/2; 
     r=n/guess;
     guess=(guess+r)/2;
-    
+    // output data
     cout<<"the input value + "<<endl;
     cout<<"sqrt=("<<n<<")="<<sqrt(n)<<endl;
     cout<<"The first pass r ="<<r<<endl;

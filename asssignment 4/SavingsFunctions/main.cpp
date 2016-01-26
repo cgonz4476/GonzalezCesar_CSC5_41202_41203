@@ -49,7 +49,11 @@ using namespace std;
         cout<<"the savingsusing power function=$"
                 <<save1(pv,intRate/PERCENT,nComp)<<endl;
         cout<<"the savingsusing power function=$"
-                <<save1(pv,intRate/PERCENT,nComp)<<endl;        
+                <<save1(pv,intRate/PERCENT,nComp)<<endl;
+        cout<<"the savingsusing power function=$"
+                <<save1(pv,intRate/PERCENT,nComp)<<endl;
+        cout<<"the savingsusing power function=$"
+                <<save1(pv,intRate/PERCENT,nComp)<<endl;
                 
                        
     }
